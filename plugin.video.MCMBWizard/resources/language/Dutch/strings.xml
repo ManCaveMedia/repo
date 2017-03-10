@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- Translated using Transifex web application. For support, or if you would like to to help out, please visit your language team! -->
+<!-- English language-Team URL: http://www.transifex.com/projects/p/xbmc-addons/language/en/ -->
+<!-- Report language file syntax bugs at: alanwww1@xbmc.org -->
+
+<strings>
+    <!-- Dialog strings -->
+    <string id="30000">Wil je "%s" uploaden?</string>
+    <string id="30001">Geupload met ID: %s</string>
+    <string id="30002">URL: %s</string>
+    <string id="30003">Er wordt geen e-mail verstuurd (er is geen e-mailadres ingesteld)</string>
+    <string id="30004">E-mail wordt verstuurd naar: %s</string>
+
+    <!-- Settings -->
+    <string id="31000">E-mailadres</string>
+    <string id="31001">Altijd kodi.old.log overslaan (logbestand van vorige sessie)</string>
+
+    <!-- Usage help strings in settings dialog -->
+    <string id="32000">Deze add-on upload je logbestanden naar xbmclogs.com</string>
+    <string id="32001">Als je een e-mail wil ontvangen met directe links om je</string>
+    <string id="32002">logbestanden te uploaden, moet je je e-mailadres instellen.</string>
+    <string id="32004">In de logbestanden kunnen gebruikersnamen en wachtwoorden zijn opgenomen!</string>
+</strings>

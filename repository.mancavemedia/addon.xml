@@ -1,14 +1,24 @@
 <?xml version="1.0.1" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.mancavemedia" name="ManCaveMedia Add-on Repository" version="1.0.6" provider-name="ManCaveMedia">
-	<extension point="xbmc.addon.repository" name="ManCaveMedia Add-on Repository[/B]">
+<addon id="repository.mancavemedia" name="ManCaveMedia Add-on Repository" version="1.0.7" provider-name="ManCaveMedia">
+	<extension point="xbmc.addon.repository" name="ManCaveMedia Add-on Repository">
 		<info compressed="false">http://raw.github.com/mancavemedia/repo/master/addons.xml</info>
 		<checksum>http://raw.github.com/mancavemedia/repo/master/addons.xml.md5</checksum>
 		<datadir zip="true">http://raw.github.com/mancavemedia/repo/master</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>Repository met add-ons van ManCaveMedia</summary>
-		<description>Repository van ManCaveMedia met add-ons om het gebruik van je ManCaveMediaBox zo makkelijk mogelijk te maken. Want daar houden we van.</description>
+		<summary lang="nl">Repository met add-ons van ManCaveMedia</summary>
+		<description lang="nl">Repository van ManCaveMedia met add-ons om het gebruik van je ManCaveMediaBox zo makkelijk mogelijk te maken. Want daar houden we van.</description>
         <disclaimer lang="nl">Alleen bedoeld voor de ManCaveMediaBox.</disclaimer>
 		<platform>linux android</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum></forum>
+		<website>http://www.mancavemedia.nl/</website>
+		<email></email>
+		<source></source>
+		<news>v1.0.7: Compleet herschreven voor Kodi Krypton</news>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
 	</extension>
 </addon>

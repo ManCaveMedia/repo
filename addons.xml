@@ -1,235 +1,54 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="net.rieter.xot.repository"
-        name="Retrospect (formerly XBMC Online TV) Add-ons"
-        version="1.0.5"
-        provider-name="Bas Rieter">
 
-    <extension  point="xbmc.addon.repository"
-                name="Official Retrospect Add-on Repository">
-        <info compressed="true">http://www.rieter.net/net.rieter.xot.repository/addons.xml</info>		
-        <checksum>http://www.rieter.net/net.rieter.xot.repository/addons.xml.md5</checksum>
-        <datadir zip="true">http://www.rieter.net/net.rieter.xot.repository</datadir>
-    </extension>
-
-    <extension point="xbmc.addon.metadata">
-        <summary>Install Retrospect components from Rieter.NET</summary>
-        <description>This repository allows you to install the most recent version of the Retrospect add-on. They are now included in a single download.</description>
-        <disclaimer />
-        <platform>all</platform>
-        <nofanart>true</nofanart>
-        <language></language>
-    </extension>
-</addon>
-
-<addon id="plugin.video.MCMBWizard" name="[B][COLOR FF593C24]ManCave[/COLOR][COLOR FF1A3042]MediaBox[/COLOR] Wizard[/B]" version="1.0.5" provider-name="[B][COLOR FF593C24]ManCave[/COLOR][COLOR FF1A3042]Media[/COLOR][/B]">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="nl">[B][COLOR FF593C24]ManCave[/COLOR][COLOR FF1A3042]MediaBox[/COLOR] Wizard[/B]</summary>
-    <description lang="nl">Wizard van [B][COLOR FF593C24]ManCave[/COLOR][COLOR FF1A3042]Media[/COLOR][/B] om je [B][COLOR FF593C24]ManCave[/COLOR][COLOR FF1A3042]MediaBox[/COLOR][/B] te updaten naar de gekozen versie. Helemaal automatisch. Lekker makkelijk. En daar houden we van.</description>
-    <disclaimer lang="nl">Alleen bedoeld voor de [B][COLOR FF593C24]ManCave[/COLOR][COLOR FF1A3042]MediaBox[/COLOR][/B].</disclaimer>
-	<platform>linux android</platform>
-  </extension>
-</addon>
-
-<addon
-  id="plugin.video.SportsDevil"
-  version="2017.02.18.NL"
-  name="SportsDevil"
-  provider-name="MaxMustermann, Al101, Hubbab3, Jairox, Sattekop">
-  <requires>
-   <import addon="xbmc.python" version="2.14.0"/>
-   <import addon="script.module.simplejson" />
-   <import addon="script.module.six" />
-   <import addon="script.module.requests" />
-   <import addon="script.module.livestreamer" />
-   <import addon="script.module.pydevd" version="4.4.0" optional="true"/>
-  </requires>
-  <extension 
-    point="xbmc.python.pluginsource"
-    library="default.py">
-   <provides>video</provides>
-  </extension>
-  <extension 
-      point="xbmc.python.script"
-      library="lib/livestreamerXBMCLocalProxy.py" />
-  <extension point="xbmc.addon.metadata">
-    <summary>Play videos of different sports streaming sites</summary>
-    <description>Play videos of different sports streaming sites</description>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="repository.aresproject" name="[COLOR blue]A[/COLOR][COLOR white]res Project[/COLOR]" version="0.0.6" provider-name="Ares Team">
-	<extension point="xbmc.addon.repository" name="AresRepo">
-		<info compressed="false">http://repo.ares-project.com/plugins/addons.xml</info>
-		<checksum>http://repo.ares-project.com/plugins/addons.xml.md5</checksum>
-		<datadir zip="true">http://repo.ares-project.com/plugins/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>AresProject.</summary>
-		<description>Ares-Project Addons Source. Visit Us At https://ares-project.uk</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="repository.filmkodi.com" name="Filmkodi.com repository - MRKNOW" version="2.1.0" provider-name="Mrknow">
-	<extension point="xbmc.addon.repository" name="Filmkodi.com Kodi Add-on Repository">
-		<info compressed="false">http://kodi.filmkodi.com/addons.xml</info>
-		<checksum>http://kodi.filmkodi.com/addons.xml.md5</checksum>
-		<datadir zip="true">http://kodi.filmkodi.com/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Install Add-ons  from filmkodi.com</summary>
-		<description lang="en">Add-ons from filmkodi.com (mrknow.pl) repository.</description>
-		<disclaimer lang="en">Repository has non-comercial nature. Created by enthusiasts, acting in good faith.</disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="repository.mancavemedia" name="ManCaveMedia Add-on Repository" version="1.0.6" provider-name="ManCaveMedia">
-	<extension point="xbmc.addon.repository" name="ManCaveMedia Add-on Repository[/B]">
+<addon id="repository.mancavemedia" name="ManCaveMedia Add-on Repository" version="1.0.7" provider-name="ManCaveMedia">
+	<extension point="xbmc.addon.repository" name="ManCaveMedia Add-on Repository">
 		<info compressed="false">http://raw.github.com/mancavemedia/repo/master/addons.xml</info>
 		<checksum>http://raw.github.com/mancavemedia/repo/master/addons.xml.md5</checksum>
 		<datadir zip="true">http://raw.github.com/mancavemedia/repo/master</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>Repository met add-ons van ManCaveMedia</summary>
-		<description>Repository van ManCaveMedia met add-ons om het gebruik van je ManCaveMediaBox zo makkelijk mogelijk te maken. Want daar houden we van.</description>
+		<summary lang="nl">Repository met add-ons van ManCaveMedia</summary>
+		<description lang="nl">Repository van ManCaveMedia met add-ons om het gebruik van je ManCaveMediaBox zo makkelijk mogelijk te maken. Want daar houden we van.</description>
         <disclaimer lang="nl">Alleen bedoeld voor de ManCaveMediaBox.</disclaimer>
 		<platform>linux android</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum></forum>
+		<website>http://www.mancavemedia.nl/</website>
+		<email></email>
+		<source></source>
+		<news>v1.0.7: Compleet herschreven voor Kodi Krypton</news>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
 	</extension>
 </addon>
 
-<addon id="repo.natko1412" name="natko1412 repo" version="2.0.0" provider-name="natko1412">
-<extension point="xbmc.addon.repository" name="Natko's Addon Repository">
-<info compressed="false">https://offshoregit.com/natko1412/addons.xml</info>
-<checksum>https://offshoregit.com/natko1412/addons.xml.md5</checksum>
-<datadir zip="true">https://offshoregit.com/natko1412/zips/</datadir>
-</extension>
-<extension point="xbmc.addon.metadata">
-<summary>Install all of Natko's Addons</summary>
-<description>Download and install addons by natko1412. For support visit XBMC thread on forum.hr</description>
-<platform>all</platform>
-</extension>
+<addon id="plugin.video.MCMBWizard" name="ManCaveMediaBox Wizard" version="1.0.7" provider-name="ManCaveMedia">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="nl">ManCaveMediaBox Wizard</summary>
+    <description lang="nl">Wizard van ManCaveMedia om je ManCaveMediaBox te updaten naar de gekozen versie. Helemaal automatisch. Lekker makkelijk. En daar houden we van.</description>
+    <disclaimer lang="nl">Alleen bedoeld voor de ManCaveMediaBox.</disclaimer>
+	<platform>linux android</platform>
+	<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+	<forum></forum>
+	<website>http://www.mancavemedia.nl/</website>
+	<email></email>
+	<source></source>
+	<news>v1.0.7: Compleet herschreven voor Kodi Krypton</news>
+	<assets>
+		<icon>resources/icon.png</icon>
+		<fanart>resources/fanart.jpg</fanart>
+	</assets>
+  </extension>
 </addon>
 
-<addon id="repository.shani" name="Shanis Addon Repository" version="2.9" provider-name="Shani">
-	<extension point="xbmc.addon.repository" name="Shanis Addon Repository">
-        <dir>
-			<info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
-			<checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
-		</dir>
-    
-    <info compressed="false">https://offshoregit.com/Shani-08/main/addons.xml</info>
-    <checksum>https://offshoregit.com/Shani-08/main/addons.xml.md5</checksum>
-    <datadir zip="true">https://offshoregit.com/Shani-08/main/zips</datadir>
-
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Addons related to XBMC for Zemtv etc</summary>
-		<description>Go though the plugins and see what you like</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="repository.tknorris.release" name="tknorris Release Repository" version="1.0.2" provider-name="tknorris">
-    <extension point="xbmc.addon.repository" name="tknorris release repository">
-        <dir>
-            <info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
-            <checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
-        </dir>
-        <info compressed="false">https://offshoregit.com/tknorris/tknorris-release-repo/raw/master/addons.xml</info>
-        <checksum>https://offshoregit.com/tknorris/tknorris-release-repo/raw/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://offshoregit.com/tknorris/tknorris-release-repo/raw/master/zips/</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>This is tknorris's release repository</summary>
-        <description>This repository contains official releases of my Kodi/XBMC addons
-
-Addons Included        	
-    - Stream All The Sources
-    - 1Channel
-    - 1Channel Themepaks
-        </description>
-        <platform>all</platform>
-    </extension>
-</addon>
-
-<addon id="repository.tva.common" name="TVADDONS.ag Libraries Repository" version="1.0.1" provider-name="tvaddons.ag">
-    <extension point="xbmc.addon.repository" name="TVADDONS.ag Libraries Repository">
-        <info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
-        <checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Faster Updating of Common Libraries for Kodi</summary>
-        <description>This repository contains intermediate builds of libraries commonly used by TVAddons Kodi addons, Brought to you by TVADDONS.ag</description>
-        <platform>all</platform>
-    </extension>
-</addon>
-
-<addon id="repository.ultimate" name="Ultimate repo" version="1.0.0" provider-name="Whitecream">
-	<extension point="xbmc.addon.repository" name="Ultimate repo">
-		<dir>
-			<info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
-			<checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
-		</dir>    
-		<info compressed="false">http://offshoregit.com/whitecream/ultimate/addons.xml</info>
-		<checksum>http://offshoregit.com/whitecream/ultimate/addons.xml.md5</checksum>
-		<datadir zip="true">http://offshoregit.com/whitecream/ultimate/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Everyting ULTIMATE</summary>
-		<description>This is the repository for every addon that is ULTIMATE</description>
-		<disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="repository.xbmcadult" name="XBMC-Adult Addons" version="1.0.6" provider-name="xbmc-adult">
-	<extension point="xbmc.addon.repository" name="XBMC Adult Addons">
-		<info compressed="false">http://raw.github.com/xbmc-adult/xbmc-adult/ghmaster/addons.xml</info>
-		<checksum>http://raw.github.com/xbmc-adult/xbmc-adult/ghmaster/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/xbmc-adult/xbmc-adult/ghmaster</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>XBMC Addons for Adults Only</summary>
-		<description>This repository contains addons that are for adults only. You may only view the contents of this repository if you are at least 18 years of age, or at least the age of majority in the jurisdiction where you reside or from which you access this content.</description>
-		<disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="repository.xbmchub" name="TVADDONS.AG Add-on Repository" version="1.0.7" provider-name="tvaddons.ag">
-	<extension point="xbmc.addon.repository" name="TVADDONS.AG Add-on Repository">
-	<dir>
-		<info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
-		<checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
-	</dir>
-		<info compressed="false">https://offshoregit.com/xbmchub/xbmc-hub-repo/raw/master/addons.xml</info>
-		<checksum>https://offshoregit.com/xbmchub/xbmc-hub-repo/raw/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://offshoregit.com/xbmchub/xbmc-hub-repo/raw/master/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Unofficial Kodi Addons from TVADDONS.AG</summary>
-		<description>Download and install unofficial Kodi add-ons from the TVADDONS.AG add-on repository. Please visit www.tvaddons.ag for addon support.
-                      
-Kodi is a registered trademark of the XBMC Foundation. We are not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</description>
-         <disclaimer>TVADDONS.AG did not make all the add-ons in this repository and is not responsible for their content.</disclaimer>
-		<platform>all</platform>
-                <forum>https://forums.tvaddons.ag</forum>
-                <website>https://www.tvaddons.ag</website>
-	</extension>
-</addon>
+</addons>
 

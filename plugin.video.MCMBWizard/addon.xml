@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.MCMBWizard" name="[B][COLOR FF593C24]ManCave[/COLOR][COLOR FF1A3042]MediaBox[/COLOR] Wizard[/B]" version="1.0.5" provider-name="[B][COLOR FF593C24]ManCave[/COLOR][COLOR FF1A3042]Media[/COLOR][/B]">
+<addon id="plugin.video.MCMBWizard" name="ManCaveMediaBox Wizard" version="1.0.7" provider-name="ManCaveMedia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video executable</provides>
+  <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="nl">[B][COLOR FF593C24]ManCave[/COLOR][COLOR FF1A3042]MediaBox[/COLOR] Wizard[/B]</summary>
-    <description lang="nl">Wizard van [B][COLOR FF593C24]ManCave[/COLOR][COLOR FF1A3042]Media[/COLOR][/B] om je [B][COLOR FF593C24]ManCave[/COLOR][COLOR FF1A3042]MediaBox[/COLOR][/B] te updaten naar de gekozen versie. Helemaal automatisch. Lekker makkelijk. En daar houden we van.</description>
-    <disclaimer lang="nl">Alleen bedoeld voor de [B][COLOR FF593C24]ManCave[/COLOR][COLOR FF1A3042]MediaBox[/COLOR][/B].</disclaimer>
+    <summary lang="nl">ManCaveMediaBox Wizard</summary>
+    <description lang="nl">Wizard van ManCaveMedia om je ManCaveMediaBox te updaten naar de gekozen versie. Helemaal automatisch. Lekker makkelijk. En daar houden we van.</description>
+    <disclaimer lang="nl">Alleen bedoeld voor de ManCaveMediaBox.</disclaimer>
 	<platform>linux android</platform>
+	<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+	<forum></forum>
+	<website>http://www.mancavemedia.nl/</website>
+	<email></email>
+	<source></source>
+	<news>v1.0.7: Compleet herschreven voor Kodi Krypton</news>
+	<assets>
+		<icon>resources/icon.png</icon>
+		<fanart>resources/fanart.jpg</fanart>
+	</assets>
   </extension>
 </addon>
