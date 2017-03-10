@@ -1,0 +1,21 @@
+[B]v1.0.5[/B] - 20170903
+* addon.xml: blauwtint in de naam aangepast zodat het leesbaar blijft bij selecteren
+
+[B]v1.0.4[/B] - 20160405
+* addon.xml: alle wijzigingen teruggedraaid naar versie 1.0.0, omdat de fout duidelijk in de skin zit en niet in de naam van de repository
+
+[B]v1.0.3[/B] - 20160405
+* addon.xml: dubbele tag toegevoegd voor een (hopelijk) juiste weergave
+
+[B]v1.0.2[/B] - 20160405
+* addon.xml: afsluitende Bold tag en spatie verwijderd voor een (hopelijk) juiste weergave
+
+[B]v1.0.1[/B] - 20160405
+* addon.xml: spatie aan de naam toegevoegd voor een (hopelijk) juiste weergave
+
+[B]v1.0.0[/B] - 20151001
++ addon.xml: disclaimer toegevoegd
+* addon.xml: platform gewijzigd van 'all' naar 'linux android'
+
+[B]Versie 0.0.1[/B] - 30-09-2015
+- Eerste testversie

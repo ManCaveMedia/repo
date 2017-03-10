@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.MCMBWizard" name="[B][COLOR FF593C24]ManCave[/COLOR][COLOR FF1A3042]MediaBox[/COLOR] Wizard[/B]" version="1.0.5" provider-name="[B][COLOR FF593C24]ManCave[/COLOR][COLOR FF1A3042]Media[/COLOR][/B]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="nl">[B][COLOR FF593C24]ManCave[/COLOR][COLOR FF1A3042]MediaBox[/COLOR] Wizard[/B]</summary>
+    <description lang="nl">Wizard van [B][COLOR FF593C24]ManCave[/COLOR][COLOR FF1A3042]Media[/COLOR][/B] om je [B][COLOR FF593C24]ManCave[/COLOR][COLOR FF1A3042]MediaBox[/COLOR][/B] te updaten naar de gekozen versie. Helemaal automatisch. Lekker makkelijk. En daar houden we van.</description>
+    <disclaimer lang="nl">Alleen bedoeld voor de [B][COLOR FF593C24]ManCave[/COLOR][COLOR FF1A3042]MediaBox[/COLOR][/B].</disclaimer>
+	<platform>linux android</platform>
+  </extension>
+</addon>

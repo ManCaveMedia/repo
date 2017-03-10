@@ -1,0 +1,14 @@
+<?xml version="1.0.1" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.mancavemedia" name="[B][COLOR FF593C24]ManCave[/COLOR][COLOR FF1A3042]Media[/COLOR] Add-on Repository[/B]" version="1.0.5" provider-name="[B][COLOR FF593C24]ManCave[/COLOR][COLOR FF1A3042]Media[/COLOR][/B]">
+	<extension point="xbmc.addon.repository" name="[B][COLOR FF593C24]ManCave[/COLOR][COLOR FF1A3042]Media[/COLOR] Add-on Repository[/B]">
+		<info compressed="false">http://mancavemedia.nl/repo/addons.xml</info>
+		<checksum>http://mancavemedia.nl/repo/addons.xml.md5</checksum>
+		<datadir zip="true">http://mancavemedia.nl/repo/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Repository met add-ons van [B][COLOR FF593C24]ManCave[/COLOR][COLOR FF1A3042]Media[/COLOR][/B]</summary>
+		<description>Repository van [B][COLOR FF593C24]ManCave[/COLOR][COLOR FF1A3042]Media[/COLOR][/B] met add-ons om het gebruik van je [B][COLOR FF593C24]ManCave[/COLOR][COLOR FF1A3042]MediaBox[/COLOR][/B] zo makkelijk mogelijk te maken. Want daar houden we van.</description>
+        <disclaimer lang="nl">Alleen bedoeld voor de [B][COLOR FF593C24]ManCave[/COLOR][COLOR FF1A3042]MediaBox[/COLOR][/B].</disclaimer>
+		<platform>linux android</platform>
+	</extension>
+</addon>

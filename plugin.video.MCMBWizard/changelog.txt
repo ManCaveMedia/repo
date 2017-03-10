@@ -1,0 +1,14 @@
+[B]v1.0.5[/B] - 20170903
+* addon.xml: blauwtint in de naam aangepast zodat het leesbaar blijft bij selecteren
+
+[B]v1.0.2[/B] - 20151208
+* default.py: directory voor uitpakken variabel gemaakt
+* default.py: bronbestand met updates hernoemd om compatibiliteitsproblemen te voorkomen
+
+[B]v1.0.1[/B] - 20151001
++ addon.xml: disclaimer toegevoegd
+* addon.xml: platform gewijzigd van 'all' naar 'linux android'
+
+[B]v1.0.0[/B] - 20151001
+Eerste officiele versie van de [B][COLOR FF593C24]ManCave[/COLOR][COLOR FF4379A5]MediaBox[/COLOR] Wizard[/B].
+
