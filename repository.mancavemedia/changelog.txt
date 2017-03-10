@@ -1,3 +1,8 @@
+[B]v1.0.6[/B] - 20170903
+* addon.xml: repository verplaatst naar github
+* addon.xml: opmaak van alle teksten verwijderd
+
+
 [B]v1.0.5[/B] - 20170903
 * addon.xml: blauwtint in de naam aangepast zodat het leesbaar blijft bij selecteren
 
